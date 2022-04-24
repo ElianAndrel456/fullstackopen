@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import Anecdotes from './Anecdotes/Anecdotes'
 import { CourseInfo } from './Courseinfo/CourseInfo'
 import Unicafe from './Unicafe/Unicafe'
 
@@ -79,6 +80,8 @@ const App = () => {
       <CourseInfo />
       <hr />
       <Unicafe />
+      <hr />
+      <Anecdotes/>
     </>
   )
 }
