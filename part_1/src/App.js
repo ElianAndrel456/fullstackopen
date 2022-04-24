@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { CourseInfo } from './Courseinfo/CourseInfo'
+import Unicafe from './Unicafe/Unicafe'
 
 const Hello = ({ age, name }) => {
   const bornYear = () => {
@@ -76,6 +77,8 @@ const App = () => {
       <Footer />
       <hr />
       <CourseInfo />
+      <hr />
+      <Unicafe />
     </>
   )
 }
